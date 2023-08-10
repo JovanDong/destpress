@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /image/logo.png
-heroText: Jovan的技术博客
-tagline: 喜欢打篮球，喜欢吃，正在减肥的路上
+heroText: Jovan的技术站
+tagline: 淡中安生 静中生长
 features:
-- title: 博客的初衷
-  details: 不想在35岁的时候就失业，加油学习吧
+- title: 我的动力源泉
+  details: 不想在35岁的时候就失业，继续努力加油吧！
 ---
