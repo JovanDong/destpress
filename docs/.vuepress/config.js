@@ -11,13 +11,13 @@ module.exports = {
     nav: [
       {
         // 右上导航航条 docs/.vuepress 文件夹下
-        text: '概述',
+        text: '首页',
         link: '/',
       },
       {
         text: 'JS 学习笔记',
         items: [
-          { text: '笔记', link: '/guide/vue/test01' }, // 可不写后缀 .md
+          { text: '笔记', link: '/guide/js/test01' }, // 可不写后缀 .md
           { text: '其它链接', link: 'https://blog.csdn.net/Mr_dong_ya_yun' }, // 外部链接
         ],
       },
@@ -42,6 +42,19 @@ module.exports = {
     ],
     sidebar: {
       //左侧列表
+      '/guide/js/': [
+        {
+          // 对应导航中的link文件夹路径，注意这里是 ‘/’结束
+          title: 'Js 学习',
+          collapsable: true,
+          children: [
+            {
+              title: '测试01',
+              path: 'test01',
+            }
+          ],
+        },
+      ],
       '/guide/vue/': [
         {
           // 对应导航中的link文件夹路径，注意这里是 ‘/’结束
