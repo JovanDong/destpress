@@ -6,6 +6,11 @@ module.exports = {
   title: 'Jovan的技术站', // 设置网站标题
   description: '描述：我的技术站',
   base: '/', //默认路径
+  plugins: [
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
+  ],
   themeConfig: {
     // 主题设置
     nav: [
