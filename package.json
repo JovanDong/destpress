@@ -1,13 +1,11 @@
 {
   "name": "dstpress",
   "version": "1.0.0",
-  "description": "my components md",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test spc ecified\" && exit 1",
-    "docs:dev": "vuepress dev docs --debug",
-    "docs:build": "vuepress build docs",
-    "server":"vuepress dev server"
+   "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -16,8 +14,7 @@
   "author": "dyy",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/client": "^2.0.0-beta.66",
-    "vue": "^3.3.4",
-    "vuepress": "^2.0.0-beta.66"
+    "vuepress": "^1.9.9",
+    "watchpack": "^2.4.0"
   }
 }
