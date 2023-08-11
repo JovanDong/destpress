@@ -9,9 +9,17 @@ module.exports = {
   plugins: [
     ['@vuepress/search', {
       searchMaxSuggestions: 10
-    }]
+    }],
+    ['@vuepress/active-header-links', {
+      sidebarLinkSelector: '.sidebar-link',
+      headerAnchorSelector: '.header-anchor'
+    }],
+    '@vuepress/back-to-top',
+    '@vuepress/blog',
+
   ],
   themeConfig: {
+    lastUpdated: 'Last Updated',
     // 主题设置
     nav: [
       {
@@ -87,7 +95,7 @@ module.exports = {
           collapsable: false,
           children: [
             {
-              title: '测试',
+              title: '1.基础数据类型',
               path: 'test01',
             },
           ],
@@ -97,6 +105,6 @@ module.exports = {
       '/': [''], //不能放在数组第一个，否则会导致右侧栏无法使用
     },
     // 左侧列表展开级数，默认是 1
-    sidebarDepth: 6,
+    sidebarDepth: 1,
   },
 }
