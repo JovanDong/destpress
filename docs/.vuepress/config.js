@@ -96,8 +96,28 @@ module.exports = {
           children: [
             {
               title: '1.基础数据类型',
-              path: 'test01',
+              path: 'ts-01',
             },
+            {
+              title: '2.ts断言',
+              path: 'ts-02',
+            },
+            {
+              title: '3.接口',
+              path: 'ts-03',
+            },
+            {
+              title: '4.类',
+              path: 'ts-04',
+            },
+            {
+              title: '5.函数',
+              path: 'ts-05',
+            },
+            {
+              title: '6.泛型',
+              path: 'ts-06',
+            }
           ],
         },
       ],
