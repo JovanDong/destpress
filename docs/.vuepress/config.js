@@ -1,7 +1,7 @@
 module.exports = {
   head: [
     // 设置 favor.ico，html/head 标题中添加 style 标签
-    ['link', { rel: 'icon', href: `logo.png` }],
+    ['link', { rel: 'icon', href: `logo.gif` }],
   ],
   title: 'Jovan的技术站', // 设置网站标题
   description: '描述：我的技术站',
